@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import Pizza from "../images/pizza.jpg"
+import Pizza from "../images/pizzasalg.jpg"
 import Cabecalho from '../components/cabecalho';
 
 const Box_styled = styled.div`
@@ -41,7 +41,7 @@ export default function Box(){
         <Box_styled>
                 <img src={Pizza} alt="" width="250px" height="auto" />
                 <div className='botao'>
-                    <h5> pizza de queijo com salsicha <br/> borda recheada pipipipopop <br/> calabresa </h5>
+                    <h5> pizza de queijo com salsicha <br/> borda recheada com cheddar<br/> e calabresa.</h5>
                     <div className='column'> 
                         <button> P </button>
                         <button> M </button>

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Pizza from "../images/pizza.jpg"
 import Cabecalho from '../components/cabecalho';
 import Box from '../components/box';
+import {Link} from 'react-router-dom';
 
 const Menu_styled = styled.div`
     font-family: "M PLUS Rounded 1c", sans-serif;
@@ -69,7 +70,7 @@ export default function Menu(){
                         <Box/>
                     </div>
                     <div className='bottom'>
-                        <button> Veja nosso cardápio completo </button>
+                        <Link to={'/cardapio'}> <button> Veja nosso cardápio completo </button> </Link>
                     </div>
                 </div>
             </div>

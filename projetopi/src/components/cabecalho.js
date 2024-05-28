@@ -1,7 +1,7 @@
 import React from 'react';
-import PizzaLogo from "../images/pizza.png"
-import Carrinho from "../images/carrinho.png"
-import {Link} from 'react-router-dom'
+import PizzaLogo from "../images/pizza.png";
+import Carrinho from "../images/carrinho.png";
+import {Link} from 'react-router-dom';
 
 import styled from "styled-components";
 
@@ -55,7 +55,7 @@ export default function Cabecalho(){
             </div>
 
             <div className='carrinho'>
-                <img src={Carrinho} alt=""width="auto" height="35px"/>
+                <Link to={'/carrinho'}><img src={Carrinho} alt=""width="auto" height="35px"/></Link>
             </div>
         </Cabecalho_styled>
     )
