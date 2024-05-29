@@ -49,6 +49,7 @@ const Menu_styled = styled.div`
         background-color: darkgreen;
         color: white;
         border-radius: 20px;
+        cursor: pointer;
     }
 
 `;

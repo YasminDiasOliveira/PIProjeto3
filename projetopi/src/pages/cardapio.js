@@ -18,6 +18,8 @@ import PizzaDoce6 from "../images/pizza12.jpeg"
 import Bebida from "../images/bebida.jpeg"
 import Bebida2 from "../images/bebida2.jpeg"
 import Bebida3 from "../images/bebida3.jpeg"
+import Bebida4 from "../images/milk.jpeg"
+import {Link} from 'react-router-dom';
 
 const Cardapio_styled = styled.div`
     display: flex;
@@ -50,25 +52,26 @@ export default function Cardapio(){
 
             <div className='container'>
                 <CardapioSecao_styled>
-                    <img src={PizzaSalg} alt="" width="259px" height="136px"/>
-                    <img src={PizzaSalg2} alt="" width="259px" height="136px"/>
-                    <img src={PizzaSalg3} alt="" width="259px" height="136px"/>
-                    <img src={PizzaSalg4} alt="" width="259px" height="136px"/>
-                    <img src={PizzaSalg5} alt="" width="259px" height="136px"/>
-                    <img src={PizzaSalg6} alt="" width="259px" height="136px"/>
+                    <Link to={"/escolha"}><img src={PizzaSalg} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaSalg2} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaSalg3} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaSalg4} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaSalg5} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaSalg6} alt="" width="259px" height="136px"/></Link>
                 </CardapioSecao_styled>
                 <CardapioSecao_styled>
-                    <img src={PizzaDoce} alt="" width="259px" height="136px"/>
-                    <img src={PizzaDoce2} alt="" width="259px" height="136px"/>
-                    <img src={PizzaDoce3} alt="" width="259px" height="136px"/>
-                    <img src={PizzaDoce4} alt="" width="259px" height="136px"/>
-                    <img src={PizzaDoce5} alt="" width="259px" height="136px"/>
-                    <img src={PizzaDoce6} alt="" width="259px" height="136px"/>
+                    <Link to={"/escolha"}><img src={PizzaDoce} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaDoce2} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaDoce3} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaDoce4} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaDoce5} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={PizzaDoce6} alt="" width="259px" height="136px"/></Link>
                 </CardapioSecao_styled>
                 <CardapioSecao_styled>
-                    <img src={Bebida} alt="" width="259px" height="136px"/>
-                    <img src={Bebida2} alt="" width="259px" height="136px"/>
-                    <img src={Bebida3} alt="" width="259px" height="136px"/>
+                    <Link to={"/escolha"}><img src={Bebida} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={Bebida2} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={Bebida3} alt="" width="259px" height="136px"/></Link>
+                    <Link to={"/escolha"}><img src={Bebida4} alt="" width="259px" height="136px"/></Link>
                 </CardapioSecao_styled>
             </div>
         </Cardapio_styled>

@@ -37,6 +37,7 @@ const Cabecalho_styled = styled.div`
         color: white;
         margin: 0px 10px 0px 0px;
         text-decoration: underline;
+        cursor: pointer;
     }
 
 `;
@@ -50,7 +51,7 @@ export default function Cabecalho(){
             </div>
 
             <div className='secoes'>
-                <Link to={'/'}><a>Menu</a></Link>
+                <Link to={'/menu'}><a>Menu</a></Link>
                 <Link to={'/cardapio'}><a>Cardápio</a></Link>
             </div>
 

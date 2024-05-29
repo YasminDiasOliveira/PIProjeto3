@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
 import Pizza from "../images/pizzasalg.jpg"
-import Cabecalho from '../components/cabecalho';
+import {Link} from 'react-router-dom';
+
 
 const Box_styled = styled.div`
     display: flex;
@@ -27,6 +28,7 @@ const Box_styled = styled.div`
         margin: 5px;
         background-color: darkgreen;
         color: white;
+        cursor: pointer;
     }
 
     .column{
@@ -43,9 +45,9 @@ export default function Box(){
                 <div className='botao'>
                     <h5> pizza de queijo com salsicha <br/> borda recheada com cheddar<br/> e calabresa.</h5>
                     <div className='column'> 
-                        <button> P </button>
-                        <button> M </button>
-                        <button> G </button>
+                        <Link to={'/carrinho'}><button> P </button></Link>
+                        <Link to={'/carrinho'}><button> M </button></Link>
+                        <Link to={'/carrinho'}><button> G </button></Link>
                     </div>
                 </div>
         </Box_styled>
